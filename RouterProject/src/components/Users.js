@@ -23,7 +23,14 @@ function Users() {
       <ul>
         {users.map((user) => (
           <li key={user.id}>
-            <NavLink activeClassName="active" to={`${url}/${user.id}`}>
+            <NavLink
+              activeClassName="active"
+              to={`${url}/${user.id}`}
+              activeStyle={{
+                fontWeight: "bold",
+                color: "black",
+              }}
+            >
               {user.name}
             </NavLink>
           </li>

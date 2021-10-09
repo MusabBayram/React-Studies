@@ -18,17 +18,39 @@ function App() {
         <nav>
           <ul>
             <li>
-              <NavLink to="/" exact activeClassName="active">
+              <NavLink
+                to="/"
+                exact
+                activeClassName="active"
+                activeStyle={{
+                  fontWeight: "bold",
+                  color: "red",
+                }}
+              >
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" activeClassName="active">
+              <NavLink
+                to="/about"
+                activeClassName="active"
+                activeStyle={{
+                  fontWeight: "bold",
+                  color: "red",
+                }}
+              >
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink to="/users" activeClassName="active">
+              <NavLink
+                to="/users"
+                activeClassName="active"
+                activeStyle={{
+                  fontWeight: "bold",
+                  color: "red",
+                }}
+              >
                 Users
               </NavLink>
             </li>
