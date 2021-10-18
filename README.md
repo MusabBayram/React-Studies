@@ -1,2 +1,2 @@
 # React-Studies
-React Öğrenirken ki çalışmalarım bu repoda bulunacak
+React Öğrenirken ki çalışmalarım bu repoda bulunacak..
